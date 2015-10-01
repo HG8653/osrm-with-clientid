@@ -38,7 +38,6 @@ module.exports = function(grunt) {
     
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-semantic-release');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.registerTask('default', ['browserify', 'uglify']);
 };
