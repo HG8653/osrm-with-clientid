@@ -6,8 +6,8 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 L.Routing.control({
     waypoints: [
-	L.latLng(35.68027,139.768325),
-	L.latLng(35.679296,139.78656)
+	L.latLng(40.775109,-73.971270),
+	L.latLng(40.702337,-74.016374)
     ],
     geocoder: L.Control.Geocoder.nominatim(),
     router: new L.Routing.OSRMwithCid('e6da160b-a484-4a0e-880e-9e822fa41198',

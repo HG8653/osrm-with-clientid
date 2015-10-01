@@ -32,13 +32,12 @@ module.exports = function(grunt) {
 	    options: {
 		add: true
 	    },
-	    src: ['dist/**']
+	    src: ['**']
 	}
     });
     
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-semantic-release');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.registerTask('default', ['browserify', 'uglify']);
 };
