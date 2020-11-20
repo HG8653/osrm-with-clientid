@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 	    }
 	},
 	release: {
-	    email: 'masanobu@jp.ibm.com',
+	    email: 'colbreygabir8653@ibm.com',
 	    name: 'Masanobu Takagi',
 	    tasks: ['default', 'changelog']
 	},
